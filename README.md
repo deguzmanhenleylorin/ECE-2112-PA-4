@@ -19,6 +19,7 @@ The following functions and methods were used and executed in this problem:
 2) `VisComm = b.loc[...]` - Use to grab the students from Visayas and diplaying their `Name, Gender, Math, Electronics, and Average`.
 ```python
 vis_comm_mask = (b["Hometown"] == "Visayas") & (b["Track"] == "Communication")
+
 VisComm = b.loc[vis_comm_mask, ["Name", "Gender", "Math", "Electronics", "Average"]]
 VisComm
 ```
