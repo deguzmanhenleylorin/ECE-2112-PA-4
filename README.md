@@ -4,6 +4,7 @@ Made by: Henley Lorin M. De Guzman | 2ECEB
 This repository contains the Programming Assignment #4 for the course ECE2112 "Advanced Computer Programming and Algorithms" in the A.Y. 2026 - 2027. This assignment covers three Python programming problems related to Module 4, titled *Data Wrangling and Visualization*.
 
 **IMPORTING LIBRARIES AND DATASETS**
+
 The following functions and methods were used and executed in this:
 
 1) `import pandas as pd` - To import Pandas library
@@ -11,6 +12,7 @@ The following functions and methods were used and executed in this:
 3) `pd.read_excel` - To read the xlsx file and loads it into Python Dataframe
 
 **A. VISAYAS COMMUNICATION DATAFRAME**
+
 The following functions and methods were used and executed in this problem:
 
 1) `vis_comm_mask = ...` - Use to create a filter to check which students are both from `Visayas` and `Communication`.
@@ -22,6 +24,7 @@ VisComm
 ```
 
 **B. VISAYAS FEMALE DATAFRAME**
+
 The following functions and methods were used and executed in this problem:
 
 1) `vis_female_mask = ...` - Use to create a filter to check which students are from `Visayas` and are `Female`.
@@ -38,6 +41,7 @@ vis_fem_passed
 ```
 
 **C. CATEGORY-AVERAGE VISUALIZATION**
+
 The following functions and methods were used and executed in this problem:
 
 1) `track_mean = b.groupby(...)` - Groups the students by `Track` and calculate their mean.
